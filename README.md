@@ -42,7 +42,7 @@ Profile a site
 ```
 
 ### Flags
-* `--url=<URL> The URL that a request will be made to
+* `--url=<URL> The URL that a request will be made to`
 * `--profile=<NUMBER OF REQUESTS> Profiles <URL> <NUMBER OF REQUESTS> times`
 * `--help See usage`
 

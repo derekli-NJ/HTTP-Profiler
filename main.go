@@ -229,7 +229,7 @@ func printProfile(diagnostic Diagnostic) {
 	fmt.Printf("Slowest time: %d ms\n", diagnostic.SlowestTime)
 	fmt.Printf("Mean time: %.4g ms\n", diagnostic.MeanTime)
 	fmt.Printf("Median time: %.4g ms\n", diagnostic.MedianTime)
-	fmt.Printf("Percent Success: %.1f%%\n", diagnostic.PercentSuccess)
+	fmt.Printf("Percent success: %.1f%%\n", diagnostic.PercentSuccess)
 	fmt.Printf("Error codes: %v\n", diagnostic.ErrorCodes)
 	fmt.Printf("Smallest response: %d bytes\n", diagnostic.SmallestResponse)
 	fmt.Printf("Largest response: %d bytes\n", diagnostic.LargestResponse)
