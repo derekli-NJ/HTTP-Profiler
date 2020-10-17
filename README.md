@@ -20,25 +20,33 @@ HTTP-Profiler is a CLI tool that makes a GET request to a HTTP endpoint TLS sock
 ## Setup and Installation
 
 * Install [Golang](https://golang.org/doc/install)
-* Clone repo
+* `go get github.com/derekli-NJ/HTTP-Profiler`
 
 And that's it!
 
 ## Usage
 
-Build:
+Build source files:
 ```
-go build main.go
+cd ~/go/src/github.com/derekli-NJ/HTTP-Profiler
+go build
 ```
+
+Or go to executable:
+```
+cd ~/go/bin/
+```
+
+#### Run Executable 
 
 See response of a site
 ```
-./main --url=https://github.com/derekli-NJ/HTTP-Profiler
+./HTTP-Profiler --url=https://github.com/derekli-NJ/HTTP-Profiler
 ```
 
 Profile a site
 ```
-./main --url=https://github.com/derekli-NJ/HTTP-Profiler --profile=10
+./HTTP-Profiler --url=https://github.com/derekli-NJ/HTTP-Profiler --profile=10
 ```
 
 ### Flags
@@ -47,7 +55,7 @@ Profile a site
 * `--help` See usage
 
 ## Examples
-Sites Profiled: Googlle, Github, YouTube, Golang.org, https://my-worker.derekli2.workers.dev/links
+Sites Profiled: Google, Github, YouTube, Golang.org, https://my-worker.derekli2.workers.dev/links
 
 Default flags:
 ![Default](samples/-url_default.png)
