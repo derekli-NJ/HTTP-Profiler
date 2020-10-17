@@ -42,9 +42,9 @@ Profile a site
 ```
 
 ### Flags
-* `--url=<URL> The URL that a request will be made to`
-* `--profile=<NUMBER OF REQUESTS> Profiles <URL> <NUMBER OF REQUESTS> times`
-* `--help See usage`
+* `--url=<URL>` The URL that a request will be made to
+* `--profile=<NUMBER OF REQUESTS>` Profiles the specified URL <NUMBER OF REQUESTS> times
+* `--help` See usage
 
 ## Examples
 Sites Profiled: Googlle, Github, YouTube, Golang.org, https://my-worker.derekli2.workers.dev/links
